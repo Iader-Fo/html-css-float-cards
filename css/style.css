@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    padding: 30px 0;
+}
+
+p{
+    text-align: center;
+}
