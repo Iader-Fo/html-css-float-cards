@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .clearfix::after{
@@ -12,16 +13,28 @@
 
 .container{
     max-width: 1200px;
-    margin: 50px auto;
+    margin: 0 auto;
 }
 
 header h1, header p{
     text-align: center;
 }
 
+h1{
+    color: #e53170;
+    margin: 30px 0 40px 0;
+}
+
+#subtitle{
+    margin-bottom: 30px;
+}
+
 .card{
     width: calc((100% / 3) - 20px);
     float: left;
+    background-color: #0f0e17;
+    box-shadow: 0px 0px 16px 1px #000000
+    ;
 }
 
 .card.second{
@@ -35,17 +48,33 @@ header h1, header p{
 }
 
 .info{
-    height: 100px;
-    background-color: #333;
+    height: 100px; 
     color: white;
+    float: left;
 }
 
 .info h3{
-    line-height: 40px;
     vertical-align: middle;
 }
 
 .info p{
-    line-height: 30px;
     vertical-align: middle;
+}
+
+.raw{
+    margin-bottom: 30px;
+}
+
+h3, .job, a{
+    padding: 10px 15px;
+}
+
+.photo{
+    height: 100px;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: #47b5ce;
 }
