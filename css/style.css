@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container::after{
+.container, .line::after{
     content: "";
     display: table;
     clear: both;
@@ -21,6 +21,49 @@ h1{
     padding: 30px 0;
 }
 
-p{
+#description{
+    margin-block-start: unset;
     text-align: center;
+    color: black;
+}
+
+.line{
+    height: 100px;
+    margin: 40px 0px;
+}
+
+.card{
+    background-color: red;
+    height: 100px;
+    width: 350px;
+    float: left;
+}
+
+.photo{
+    float: left;
+    height: 100px;
+}
+
+.info{
+    float: left;
+}
+
+h3{
+    color: white;
+    padding-top: 13px;
+    padding-left: 5px;
+}
+
+.job{
+    color: white;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+.middle{
+    margin: 0px 20px;
 }
