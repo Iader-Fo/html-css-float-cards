@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container, .line::after{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -12,58 +12,40 @@
 
 .container{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
-h1{
-    color: red;
+header h1, header p{
     text-align: center;
-    padding: 30px 0;
-}
-
-#description{
-    margin-block-start: unset;
-    text-align: center;
-    color: black;
-}
-
-.line{
-    height: 100px;
-    margin: 40px 0px;
 }
 
 .card{
-    background-color: red;
-    height: 100px;
-    width: 350px;
+    width: calc((100% / 3) - 20px);
     float: left;
 }
 
-.photo{
+.card.second{
+    margin: 0 30px;
+}
+
+.profile{
+    width: 100px;
+    aspect-ratio: 1;
     float: left;
-    height: 100px;
 }
 
 .info{
-    float: left;
-}
-
-h3{
+    height: 100px;
+    background-color: #333;
     color: white;
-    padding-top: 13px;
-    padding-left: 5px;
 }
 
-.job{
-    color: white;
-    padding: 5px;
+.info h3{
+    line-height: 40px;
+    vertical-align: middle;
 }
 
-a{
-    text-decoration: none;
-    padding: 5px;
-}
-
-.middle{
-    margin: 0px 20px;
+.info p{
+    line-height: 30px;
+    vertical-align: middle;
 }
