@@ -30,15 +30,14 @@ h1{
 }
 
 .card{
-    width: calc((100% / 3) - 20px);
+    width: 30%;
     float: left;
     background-color: #0f0e17;
-    box-shadow: 0px 0px 16px 1px #000000
-    ;
+    box-shadow: 0px 0px 16px 1px #000000;
 }
 
 .card.second{
-    margin: 0 30px;
+    margin:0 5%;
 }
 
 .profile{
@@ -51,6 +50,7 @@ h1{
     height: 100px; 
     color: white;
     float: left;
+    padding: 10px;
 }
 
 .info h3{
@@ -66,7 +66,7 @@ h1{
 }
 
 h3, .job, a{
-    padding: 10px 15px;
+    margin: 5px 0px;
 }
 
 .photo{
