@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1,
+header p {
+    text-align: center;
+}
+
+h1 {
+    color: #e53170;
+    margin: 30px 0 40px 0;
+}
+
+#subtitle {
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 30%;
+    height: 100px;
+    background-color: #0f0e17;
+    box-shadow: 0px 0px 16px 1px #000000;
+}
+
+.profile {
+    width: 100px;
+    aspect-ratio: 1;
+    float: left;
+}
+
+.info {
+    height: 100px;
+    color: white;
+    float: left;
+    padding: 10px;
+}
+
+.info h3 {
+    vertical-align: middle;
+}
+
+.info p {
+    vertical-align: middle;
+}
+
+.raw {
+    height: 230px;
+    display: flex;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+h3,
+.job,
+a {
+    margin: 5px 0px;
+}
+
+.photo {
+    height: 100px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: #47b5ce;
+}
